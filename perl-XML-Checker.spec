@@ -19,9 +19,10 @@ BuildRequires:	perl-devel >= 5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
 BuildRequires:	perl-XML-Parser >= 2.30
-BuildRequires:	perl(XML::DOM) >= 1.29
+BuildRequires:	perl-XML-DOM >= 1.29
 BuildRequires:	perl-libxml >= 0.07
 %endif
+Obsoletes:	perl-libxml-enno
 BuildArch:	noarch
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
@@ -41,8 +42,8 @@ XML::Checker::Parser i XML::DOM::ValParser.
 %build
 %{__perl} Makefile.PL \
 	INSTALLDIRS=vendor
-
 %{__make}
+
 %{?with_tests:%{__make} test}
 
 %install
