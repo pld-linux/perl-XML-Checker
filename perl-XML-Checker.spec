@@ -3,8 +3,8 @@
 %bcond_without tests	# do not perform "make test"
 #
 %include	/usr/lib/rpm/macros.perl
-%define	pdir	XML
-%define	pnam	Checker
+%define		pdir	XML
+%define		pnam	Checker
 Summary:	XML::Checker - a Perl module for validating XML
 Summary(pl):	XML::Checker - modu³ Perla do sprawdzania poprawno¶ci XML-a
 Name:		perl-XML-Checker
