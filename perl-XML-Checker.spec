@@ -6,7 +6,7 @@
 %define		pdir	XML
 %define		pnam	Checker
 Summary:	XML::Checker - a Perl module for validating XML
-Summary(pl):	XML::Checker - modu³ Perla do sprawdzania poprawno¶ci XML-a
+Summary(pl.UTF-8):   XML::Checker - moduÅ‚ Perla do sprawdzania poprawnoÅ›ci XML-a
 Name:		perl-XML-Checker
 Version:	0.13
 Release:	1
@@ -31,9 +31,9 @@ XML::Checker can be used in different ways to validate XML. See the
 manual pages of XML::Checker::Parser and XML::DOM::ValParser for more
 information.
 
-%description -l pl
-XML::Checker mo¿e byæ u¿ywany w ró¿ny sposób do sprawdzania
-poprawno¶ci XML-a. Wiêcej informacji znajduje siê w stronach manuala
+%description -l pl.UTF-8
+XML::Checker moÅ¼e byÄ‡ uÅ¼ywany w rÃ³Å¼ny sposÃ³b do sprawdzania
+poprawnoÅ›ci XML-a. WiÄ™cej informacji znajduje siÄ™ w stronach manuala
 XML::Checker::Parser i XML::DOM::ValParser.
 
 %prep
