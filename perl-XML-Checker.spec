@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do not perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	XML
 %define		pnam	Checker
+%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Checker - a Perl module for validating XML
 Summary(pl.UTF-8):	XML::Checker - moduł Perla do sprawdzania poprawności XML-a
 Name:		perl-XML-Checker
@@ -15,11 +15,12 @@ License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	6fddcc489b4d9a5063e3a34d72400da9
+URL:		http://search.cpan.org/dist/XML-Checker/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 %if %{with tests}
-BuildRequires:	perl-XML-Parser >= 2.30
 BuildRequires:	perl-XML-DOM >= 1.29
+BuildRequires:	perl-XML-Parser >= 2.30
 BuildRequires:	perl-libxml >= 0.07
 %endif
 Obsoletes:	perl-libxml-enno
