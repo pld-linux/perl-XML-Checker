@@ -4,7 +4,6 @@
 
 %define		pdir	XML
 %define		pnam	Checker
-%include	/usr/lib/rpm/macros.perl
 Summary:	XML::Checker - a Perl module for validating XML
 Summary(pl.UTF-8):	XML::Checker - moduł Perla do sprawdzania poprawności XML-a
 Name:		perl-XML-Checker
