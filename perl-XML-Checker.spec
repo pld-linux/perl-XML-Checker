@@ -8,7 +8,7 @@ Summary:	XML::Checker - a Perl module for validating XML
 Summary(pl.UTF-8):	XML::Checker - moduł Perla do sprawdzania poprawności XML-a
 Name:		perl-XML-Checker
 Version:	0.13
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
